@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: #000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.page {
+    background-color: #111;
+    padding: 45px; 
+    border-radius: 12px;
+    box-shadow: 0 0 20px #08045b33; 
+    text-align: center;
+    width: 90%;
+    max-width: 750px; 
+}
+
+.page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white; 
+}
+
+#myinput {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #08045b; 
+    font-size: 1rem;
+    background-color: #000;
+    color: #ffffff;
+    caret-color: #08045b; 
+}
+
+#mybutton {
+    padding: 10px 20px;
+    background-color: #08045b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#mybutton:hover {
+    background-color: #070347; 
+}
+
+p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.task-card {
+    background-color: #111;
+    padding: 20px;
+    margin-top: 15px;
+    border: 1px solid #08045b;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #08045b33;
+    color: #ffffff;
+    text-align: left;
+}
+
+.task-card p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    word-break: break-word;
+}
+
+.task-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.task-buttons button {
+    background-color: transparent;
+    border: none;
+    color: #08045b;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s;
+}
+
+.task-buttons button:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+}
